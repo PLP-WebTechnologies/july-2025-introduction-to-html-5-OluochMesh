@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio page demonstrating HTML5 semantics, accessibility, and SEO.">
+    <meta name="keywords" content="HTML5, accessibility, SEO, web development, PLP">
+    <meta name="author" content="Meshack Oluoch">
+    <title>Meshack Oluoch | Web Developer</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header role="banner">
+        <h1>Meshack Oluoch</h1>
+        <p>Web Developer | PLP Learner</p>
+    </header>
+    
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main id="main-content" role="main">
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <article>
+                <p>I am a web developer, recently joined the PLP community to improve my skills in modern web development.</p>
+            </article>
+        </section>
+        
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills</h2>
+            <article>
+                <p><strong>Technical Skills:</strong> HTML, CSS, JavaScript, and Python.</p>
+                <p><strong>Focus:</strong> Building responsive and accessible web applications.</p>
+            </article>
+        </section>
+    </main>
+    
+    <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <address>
+            <p>Email: <a href="mailto:meshackoluoch83@gmail.com">meshackoluoch83@gmail.com</a></p>
+            <p>Phone: <a href="tel:+254796852295">+254 796 852295</a></p>
+        </address>
+    </section>
+    
+    <footer role="contentinfo">
+        <p>&copy; 2025 Meshack Oluoch. All rights reserved.</p>
+    </footer>
+</body>
+</html>
